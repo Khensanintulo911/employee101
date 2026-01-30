@@ -1,0 +1,182 @@
+✅ ZOHO DEVELOPER TECHNICAL & PRACTICAL EVALUATION TEST
+📌 Position: Zoho Developer
+📌 Company: Sheq Safety CC
+📌 Submission Email: compliance@saharaworkwear.com
+🔹 Instructions to Candidate
+
+Please complete all sections below and submit your answers, screenshots, and code snippets (where applicable) to:
+
+📧 compliance@saharaworkwear.com
+
+Subject Line: Zoho Developer Evaluation – [Your Full Name]
+
+Deadline: Within 48 hours of receiving this test.
+
+All answers must be your own work.
+
+🧠 SECTION A: Technical Knowledge (Explain in Your Own Words)
+
+Answer briefly but clearly.
+
+Explain the difference between:
+
+Zoho Creator
+
+Zoho CRM
+
+Zoho Analytics
+
+What is Deluge? Where is it used?
+
+Explain the purpose of:
+
+Forms
+
+Reports
+
+Workflows
+
+Functions
+
+What is an API and how does Zoho use APIs?
+
+Explain what a webhook is and give an example.
+
+💻 SECTION B: Deluge & Automation (Practical)
+Question 1 – Validation Script
+
+Write a Deluge script that:
+
+Prevents submission of a form if:
+
+“ID Number” is empty
+
+“Email Address” is invalid
+
+Explain your logic.
+
+Question 2 – Automation
+
+Describe how you would:
+
+Automatically send an email to HR when:
+
+An employee submits leave
+
+And the leave exceeds 3 days
+
+Include:
+
+Trigger used
+
+Workflow setup
+
+Script (if applicable)
+
+🗂️ SECTION C: System Design (Business Scenario)
+Scenario:
+
+Sheq Safety wants a simple HR System in Zoho Creator with:
+
+Employee Records
+
+Leave Applications
+
+Disciplinary Records
+
+Training Records
+
+Task:
+
+Design the system.
+
+Provide:
+
+Forms needed
+
+Relationships between forms
+
+User roles
+
+Access permissions
+
+Automation ideas
+
+Explain your approach.
+
+🔌 SECTION D: Integration & Data Handling
+
+Answer the following:
+
+How would you integrate Zoho Creator with:
+
+Zoho Books
+
+External Payroll System
+
+How do you handle:
+
+Duplicate records
+
+Data validation
+
+Backups
+
+Describe a project where you used APIs.
+
+⚠️ SECTION E: Debugging & Problem Solving
+Scenario:
+
+A Zoho app is:
+
+Not saving records
+
+Automation emails are failing
+
+Reports are empty
+
+Explain step-by-step how you would troubleshoot this.
+
+🤝 SECTION F: Professional & Work Ethics
+
+Answer honestly.
+
+How do you handle deadlines?
+
+How do you document your work?
+
+How do you handle user change requests?
+
+How do you manage system security?
+
+Have you ever fixed a broken system? Explain.
+
+⭐ BONUS SECTION (Optional – High Scoring)
+
+Provide:
+
+Screenshot of any Zoho app you’ve built
+OR
+
+Link to demo system
+OR
+
+Portfolio / GitHub (if applicable)
+
+📊 EVALUATION CRITERIA (Internal Use)
+Area	Weight
+Technical Knowledge	20%
+Deluge Skills	25%
+System Design	20%
+Integration	15%
+Problem Solving	10%
+Professionalism	10%
+Total	100%
+📧 Submission Format
+
+Candidates must submit:
+
+✔ PDF or Word Document
+✔ Screenshots (if applicable)
+✔ Code snippets
+✔ Clear explanations
