@@ -1,4 +1,4 @@
-# Vanguard HR Portal - Technical Assessment Submission
+# DevPulse HR Portal - Technical Assessment Submission
 **Candidate:** Khensani Ntulo  
 **Date:** January 30, 2026  
 
@@ -57,7 +57,7 @@ if (leave_length > 3) {
     sendmail
     [
         from: zoho.adminuserid
-        to: "hr_alerts@vanguard.co.za"
+        to: "hr_alerts@devpulse-hr.com"
         subject: "Extended Leave Alert: " + input.Employee_Name
         message: "Notice: " + input.Employee_Name + " has applied for " + leave_length + " days of leave."
     ]
@@ -66,9 +66,9 @@ if (leave_length > 3) {
 
 ---
 
-## 🗂️ SECTION C: Vanguard HR System Design
+## 🗂️ SECTION C: DevPulse HR System Design
 
-I have designed and implemented a working version of this system for **Vanguard HR**.
+I have designed and implemented a working version of this system for **DevPulse HR**.
 
 *   **Structure:** I used a centralized **Employee Master** form which connects to individual logs for Leave, Discipline, and Training. This ensures that when you look up an employee, you see their entire history in one place.
 *   **Security:** I follow the "need to know" principle. Employees see their own data; managers see their department; HR admins see everything.

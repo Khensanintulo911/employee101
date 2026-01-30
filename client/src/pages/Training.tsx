@@ -14,6 +14,13 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Plus, Award } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
+/**
+ * Training Records Component
+ * 
+ * Manages employee professional development and certification records.
+ * 
+ * @returns {JSX.Element} The rendered training management page
+ */
 export default function Training() {
   const { data: records, isLoading } = useTrainingRecords();
   const { data: employees } = useEmployees();

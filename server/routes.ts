@@ -5,6 +5,16 @@ import { api } from "@shared/routes";
 import { z } from "zod";
 import { differenceInBusinessDays, parseISO } from "date-fns";
 
+/**
+ * API Route Registration
+ * 
+ * Sets up all backend endpoints for employees, leave, discipline, and training.
+ * Includes database seeding logic for initial setup.
+ * 
+ * @param {Server} httpServer - The HTTP server instance
+ * @param {Express} app - The Express application instance
+ * @returns {Promise<Server>} The configured HTTP server
+ */
 export async function registerRoutes(
   httpServer: Server,
   app: Express
@@ -124,7 +134,7 @@ export async function seedDatabase() {
     const emp1 = await storage.createEmployee({
       firstName: "Khensani",
       lastName: "Ntulo",
-      email: "k.ntulo@vanguard.co.za",
+      email: "k.ntulo@devpulse-hr.com",
       idNumber: "8501015000087",
       position: "Senior Safety Consultant",
       department: "Risk Management",
@@ -134,7 +144,7 @@ export async function seedDatabase() {
     const emp2 = await storage.createEmployee({
       firstName: "Thabo",
       lastName: "Molefe",
-      email: "t.molefe@vanguard.co.za",
+      email: "t.molefe@devpulse-hr.com",
       idNumber: "9005050055081",
       position: "HR Operations Lead",
       department: "Human Resources",

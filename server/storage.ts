@@ -29,6 +29,12 @@ export interface IStorage {
   createTrainingRecord(record: InsertTrainingRecord): Promise<TrainingRecord>;
 }
 
+/**
+ * Database Storage Implementation
+ * 
+ * Concrete implementation of the IStorage interface using Drizzle ORM
+ * for PostgreSQL persistence.
+ */
 export class DatabaseStorage implements IStorage {
   // Employees
   async getEmployees(): Promise<Employee[]> {

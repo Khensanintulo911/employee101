@@ -1,4 +1,4 @@
-# Vanguard HR Portal
+# DevPulse HR Portal
 
 ## Overview
 A full-stack HR management application built with React, Express, and PostgreSQL. The application provides an executive dashboard for managing employees, leave requests, disciplinary cases, and training.

@@ -40,6 +40,14 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { useToast } from "@/hooks/use-toast";
 
+/**
+ * Employees Management Component
+ * 
+ * Handles the listing, searching, and creation of employee records.
+ * Includes validation for ID numbers and email addresses.
+ * 
+ * @returns {JSX.Element} The rendered employee management page
+ */
 export default function Employees() {
   const { data: employees, isLoading } = useEmployees();
   const [isCreateOpen, setIsCreateOpen] = useState(false);

@@ -26,6 +26,12 @@ function Router() {
   );
 }
 
+/**
+ * Main Application Component
+ * 
+ * Sets up the global providers (QueryClient, Tooltip, Sidebar) and 
+ * the main layout structure of the HR portal.
+ */
 function App() {
   const style = {
     "--sidebar-width": "18rem",
@@ -42,7 +48,7 @@ function App() {
               <header className="flex items-center justify-between p-4 border-b h-14 shrink-0">
                 <div className="flex items-center gap-2">
                   <SidebarTrigger data-testid="button-sidebar-toggle" />
-                  <h1 className="font-semibold text-lg">Vanguard HR Portal</h1>
+                  <h1 className="font-semibold text-lg">DevPulse HR Portal</h1>
                 </div>
               </header>
               <main className="flex-1 overflow-y-auto p-6">

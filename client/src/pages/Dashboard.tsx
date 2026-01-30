@@ -6,6 +6,14 @@ import { useDisciplinaryRecords } from "@/hooks/use-discipline";
 import { Users, CalendarClock, AlertTriangle, GraduationCap } from "lucide-react";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from "recharts";
 
+/**
+ * Dashboard Component
+ * 
+ * Provides an executive overview of HR metrics, including total employees,
+ * pending leave requests, active leave, and disciplinary cases.
+ * 
+ * @returns {JSX.Element} The rendered dashboard page
+ */
 export default function Dashboard() {
   const { data: employees } = useEmployees();
   const { data: leaveRequests } = useLeaveRequests();

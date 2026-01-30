@@ -7,10 +7,15 @@ interface LayoutProps {
   action?: React.ReactNode;
 }
 
+/**
+ * Main Content Area Wrapper
+ * 
+ * Note: Sidebar has been removed from this component to prevent 
+ * duplicate rendering as it is now managed globally in App.tsx.
+ */
 export function Layout({ children, title, action }: LayoutProps) {
   return (
     <div className="flex h-screen bg-slate-50/50">
-      <Sidebar />
       <main className="flex-1 overflow-y-auto">
         <header className="sticky top-0 z-20 flex h-16 items-center justify-between border-b border-slate-200 bg-white/80 px-8 backdrop-blur-md">
           <h1 className="font-display text-2xl font-bold text-slate-800">{title}</h1>

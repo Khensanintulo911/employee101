@@ -15,6 +15,13 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Plus, AlertOctagon } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
+/**
+ * Disciplinary Records Component
+ * 
+ * Tracks workplace incidents and disciplinary actions taken against employees.
+ * 
+ * @returns {JSX.Element} The rendered disciplinary management page
+ */
 export default function Disciplinary() {
   const { data: records, isLoading } = useDisciplinaryRecords();
   const { data: employees } = useEmployees();

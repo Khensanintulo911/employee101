@@ -35,6 +35,14 @@ import { Badge } from "@/components/ui/badge";
 import { useToast } from "@/hooks/use-toast";
 import { differenceInDays, parseISO } from "date-fns";
 
+/**
+ * Leave Management Component
+ * 
+ * Manages employee leave applications, approvals, and rejections.
+ * Includes automated notification logic for extended leave durations.
+ * 
+ * @returns {JSX.Element} The rendered leave management page
+ */
 export default function LeaveRequests() {
   const { data: requests, isLoading } = useLeaveRequests();
   const { data: employees } = useEmployees();
