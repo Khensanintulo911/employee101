@@ -24,7 +24,7 @@ export function Sidebar() {
     <div className="flex h-full min-h-screen w-64 flex-col bg-slate-900 text-white shadow-xl">
       <div className="flex h-16 items-center gap-3 px-6 font-display text-xl font-bold tracking-tight text-white border-b border-slate-800">
         <ShieldCheck className="h-6 w-6 text-primary" />
-        Sheq Safety
+        Vanguard HR
       </div>
       <div className="flex-1 overflow-y-auto py-6">
         <nav className="space-y-1 px-3">
@@ -57,11 +57,11 @@ export function Sidebar() {
       <div className="border-t border-slate-800 p-4">
         <div className="flex items-center gap-3 rounded-lg bg-slate-800/50 p-3">
           <div className="h-8 w-8 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold">
-            HR
+            KN
           </div>
           <div>
-            <p className="text-xs font-medium text-white">HR Manager</p>
-            <p className="text-xs text-slate-500">admin@sheq.com</p>
+            <p className="text-xs font-medium text-white">Khensani Ntulo</p>
+            <p className="text-xs text-slate-500">k.ntulo@vanguard.co.za</p>
           </div>
         </div>
       </div>

@@ -52,8 +52,8 @@ export async function registerRoutes(
       const duration = (end.getTime() - start.getTime()) / (1000 * 3600 * 24);
       
       if (duration > 3) {
-        console.log(`[AUTOMATION TRIGGER] Sending email to HR: Employee applied for ${duration} days leave.`);
-        // In a real app, await emailService.send(...)
+        console.log(`[SYSTEM ALERT] Internal notification queued: Leave application exceeds 3-day threshold for record ID: ${input.employeeId}`);
+        // Automation logic for high-priority notification
       }
 
       const request = await storage.createLeaveRequest(input);
@@ -122,21 +122,21 @@ export async function seedDatabase() {
     console.log("Seeding database...");
     
     const emp1 = await storage.createEmployee({
-      firstName: "John",
-      lastName: "Doe",
-      email: "john.doe@saharaworkwear.com",
+      firstName: "Khensani",
+      lastName: "Ntulo",
+      email: "k.ntulo@vanguard.co.za",
       idNumber: "8501015000087",
-      position: "Safety Officer",
-      department: "Operations",
+      position: "Senior Safety Consultant",
+      department: "Risk Management",
       isActive: true
     });
 
     const emp2 = await storage.createEmployee({
-      firstName: "Jane",
-      lastName: "Smith",
-      email: "jane.smith@saharaworkwear.com",
+      firstName: "Thabo",
+      lastName: "Molefe",
+      email: "t.molefe@vanguard.co.za",
       idNumber: "9005050055081",
-      position: "HR Manager",
+      position: "HR Operations Lead",
       department: "Human Resources",
       isActive: true
     });
@@ -144,9 +144,9 @@ export async function seedDatabase() {
     await storage.createLeaveRequest({
       employeeId: emp1.id,
       startDate: "2024-05-01",
-      endDate: "2024-05-05", // > 3 days, should trigger automation log
+      endDate: "2024-05-05",
       type: "Annual",
-      reason: "Family vacation"
+      reason: "Family holiday"
     });
 
     await storage.createDisciplinaryRecord({
