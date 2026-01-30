@@ -24,7 +24,7 @@ export function Sidebar() {
     <div className="flex h-full min-h-screen w-64 flex-col bg-slate-900 text-white shadow-xl">
       <div className="flex h-16 items-center gap-3 px-6 font-display text-xl font-bold tracking-tight text-white border-b border-slate-800">
         <ShieldCheck className="h-6 w-6 text-primary" />
-        Vanguard HR
+        DevPulse HR
       </div>
       <div className="flex-1 overflow-y-auto py-6">
         <nav className="space-y-1 px-3">
@@ -61,7 +61,7 @@ export function Sidebar() {
           </div>
           <div>
             <p className="text-xs font-medium text-white">Khensani Ntulo</p>
-            <p className="text-xs text-slate-500">k.ntulo@vanguard.co.za</p>
+            <p className="text-xs text-slate-500">k.ntulo@devpulse-hr.com</p>
           </div>
         </div>
       </div>
